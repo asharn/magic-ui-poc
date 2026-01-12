@@ -2,10 +2,18 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Proof-of-concept repository intended to demonstrate patterns for integrating third-party UI systems into a React + TypeScript app using Vite.
+
+Status
+
+- This project currently does not import or bundle the Magic UI package. Earlier `components.json` referenced an `@magicui` registry; that registry has been removed to avoid confusion.
+- Components in `src/components/ui/` are local wrappers and utilities (not direct Magic UI imports).
+
+Purpose
+
+- Show integration patterns, theming, and composition that could be applied when adding Magic UI (or other systems) to React components.
+- Provide a small set of example pages that illustrate component composition and layout.
 
 ## React Compiler
 

@@ -1,8 +1,14 @@
+
 # magic-ui-poc
 
-Minimal Proof of Concept UI built with Vite + React + TypeScript.
+Proof-of-concept demonstrating how to integrate Magic UI into a React + TypeScript app using Vite.
 
-Getting started
+Purpose
+
+- Showcase component integration patterns, theming, and composition with Magic UI inside React components.
+- Provide a small set of example pages that use Magic UI primitives and wrapped components.
+
+Quick start
 
 Prerequisites: Node.js 18+ and npm (or yarn/pnpm).
 
@@ -36,15 +42,17 @@ Linting:
 npm run lint
 ```
 
-Project layout
+Where to look
 
-- `src/` — application source
-- `public/` — static assets
+- `src/components/ui/` — Magic UI component wrappers and example primitives.
+- `src/components/landing/` — example pages showing the UI in context.
+- `src/pages/Landing.tsx` — an entry example that uses the Magic UI components.
 
 Notes
 
-- This project uses Vite and TypeScript. Adjust Node/npm versions if needed.
-- If you want a license or contributing guidelines added, tell me which license.
+- This repository is intended as a demonstration only. For production use, follow Magic UI and React best practices for accessibility and performance.
+- If you'd like, I can add a short demo script, screenshots, or a `CONTRIBUTING.md` describing how to add more examples.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
